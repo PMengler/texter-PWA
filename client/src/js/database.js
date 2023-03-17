@@ -12,12 +12,12 @@ const initdb = async () =>
     },
   });
 
-export const putDb = async (content) => {
+export const putDb = async (id, content) => {
   console.log('Updating database...');
   const db = await openDB('jate', 1);
   const tx = db.transaction('jate', 'readwrite');
   const store = tx.objectStore('jate');
-  const request = store.put({ id: 1, value: content });
+  const request = store.put({ id: id, value: content });
   const result = await request;
   console.log('result:', result);
   return result;
