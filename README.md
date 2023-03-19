@@ -25,7 +25,7 @@ In order to run the applicaton, run the following command in the integrated term
 
 Simply save your text or code in the editor!
 
-![alt text](img)
+![App and code screenshot](https://user-images.githubusercontent.com/114950259/226198549-5b0ce382-66a8-41da-b9c9-e27b841607b4.png)
 
 ## Contributing
 
@@ -41,7 +41,7 @@ Testing is not applicable on this project. However, typically you would run the 
 
 GitHub Url: https://github.com/PMengler
 
-Deployed Heroku Application:
+Deployed Heroku Application: https://texter-pwa.herokuapp.com/
 
 ## License
 
